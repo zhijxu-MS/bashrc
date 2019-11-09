@@ -10,6 +10,11 @@ set shiftwidth=3
 
 set cursorline
 
+set relativenumber
+
+" show context above/below cursorline.
+set scrolloff=3 
+" Highlight trailing whitespace.
 
 ###############key mapping
 " Save
