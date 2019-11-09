@@ -19,6 +19,23 @@ set list listchars=tab:»·,trail:·,nbsp:·
 
 " Enable mouse in all modes
 set mouse=a
+
+"auto insert string to new file
+autocmd BufNewFile *.c,*.cpp,*.sh,*.py,*.java exec ":call SetTitle()"
+func SetTitle()
+    if &filetype == 'shell'
+        call setline(1, "\#!/bin/sh")
+        call setline(2, "")
+    endif
+    if &filetype == 'python'
+        call setline(1, "\#!/usr/bin/python")
+        call setline(2, "")
+    endif
+
+    autocmd BufNewfile * normal G
+    autocmd BufNewfile * startinsert
+endfunc
+
 ###############key mapping
 " Save
 inoremap <C-s>     <C-O>:update<cr>
