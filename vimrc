@@ -15,7 +15,10 @@ set relativenumber
 " show context above/below cursorline.
 set scrolloff=3 
 " Highlight trailing whitespace.
+set list listchars=tab:»·,trail:·,nbsp:·
 
+" Enable mouse in all modes
+set mouse=a
 ###############key mapping
 " Save
 inoremap <C-s>     <C-O>:update<cr>
