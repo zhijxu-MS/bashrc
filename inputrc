@@ -1,2 +1,3 @@
+# 补全时忽略大小写
 set completion-ignore-case on
 set show-all-if-ambiguous on
