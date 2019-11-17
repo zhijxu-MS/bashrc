@@ -1,0 +1,7 @@
+1 gdb with python extension:
+  https://wiki.python.org/moin/DebuggingWithGdb >>  gdb python pid
+  in case python extension not work: in gdb; source /usr/share/gdb/auto-load/usr/bin/python3.5-gdb.py
+
+2 python -m trace: 可以在执行指定的module才打印stack.
+
+3 signal >> 注册signal handler; 通过kill去send signal.
