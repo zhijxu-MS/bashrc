@@ -1,0 +1,9 @@
+http://fabiorehm.com/blog/2014/09/11/running-gui-apps-with-docker/
+
+## let container can connect to host's X11 server
+-v $HOME/.Xauthority:/home/developer/.Xauthority
+--net=host
+
+
+
+VNC
