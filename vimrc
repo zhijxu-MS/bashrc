@@ -45,3 +45,12 @@ nnoremap <C-s>     :update<cr>
 inoremap <C-Q>     <esc>:q<cr>
 nnoremap <C-Q>     :q<cr>
 vnoremap <C-Q>     <esc>
+
+## press "f" to show current function's name
+fun! ShowFuncName()
+  echohl ModeMsg
+  echo getline(search("^[^ \t#/]\\{2}.*[^:]\s*$", 'bWn'))
+  echohl None
+endfun
+map f :call ShowFuncName() <CR>
+
