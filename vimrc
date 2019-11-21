@@ -7,10 +7,9 @@ set ignorecase smartcase
 set nowrapscan   "no jump back to start when jumping to the last found
 
 set tabstop=3
-set shiftwidth=3
+set shiftwidth=1   "" numberxx <  can shift the content
 
 set cursorline
-
 set relativenumber
 
 " show context above/below cursorline.
@@ -60,4 +59,5 @@ map f :call ShowFuncName() <CR>
 
 """"folding
 """ za/A toggle folding; zc close folding, zo open folding
+set foldenable
 set foldmethod=syntax     
