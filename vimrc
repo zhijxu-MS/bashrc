@@ -6,6 +6,8 @@ set incsearch
 set ignorecase smartcase
 set nowrapscan   "no jump back to start when jumping to the last found
 
+" 统一缩进为4
+set softtabstop=3
 set tabstop=3
 set shiftwidth=1   "" numberxx <  can shift the content
 
