@@ -4,7 +4,8 @@ chocolatey: 命令行安装程序
 Snipaste >> F1截图, F3粘贴置顶, 画笔
 mindmaster
 CC助手: 复制后能记住来源, 并且可以统一管理
-https://getquicker.net/   可以设置每个软件的常用动作, 包括鼠标, 最大化窗口, 按键等都可以
+https://getquicker.net/   可以设置每个软件的常用动作, 包括鼠标, 最大化窗口, 按键等都可以   >>传文件到remote等可以写成quicker的动作, 这样就不用每次都重复劳动了
+                          有些动作是很难找到软件去整的, 还不如自己写个quicker action
 quicklook: 预览文件; space即可
 WGestures: 鼠标手势.
 
