@@ -4,4 +4,4 @@
    Choose a drive to mount at and in the Folder field enter: \\sshfs\yourRemoteLogin@ipv4xxx
    
 
-在windows里运行的Python code可以使用对应的盘符访问该目录.
+在windows里运行的Python code可以使用对应的盘符访问该目录.  >>> 直接拖拽传输文件的速度要快于git里自带的scp
